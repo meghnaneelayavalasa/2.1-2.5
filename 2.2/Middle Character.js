@@ -4,7 +4,7 @@ function getMiddle(s)
   var position;
   var length;
   
-  if(s.length % 2 == 1) {
+  if(s.length % 2 === 1) {
       position = s.length / 2;
       length = 1;
   } 
@@ -12,5 +12,5 @@ function getMiddle(s)
       position = s.length / 2 - 1;
       length = 2;
   }
-  return s.substring(position, position + length)
+  return s.substring(position, position + length);
 }
